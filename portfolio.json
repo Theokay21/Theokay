@@ -1,0 +1,103 @@
+{
+  "branding": [
+    {
+      "title": "Brand Identity A",
+      "image": "assets/portfolio/branding1.jpg",
+      "description": "Logo and brand system design"
+    },
+    {
+      "title": "Brand Identity B",
+      "image": "assets/portfolio/Branding for constructify.jpg",
+      "description": "Corporate branding"
+    },
+    {
+      "title": "Brand Identity C",
+      "image": "assets/portfolio/Branding Taste.jpg",
+      "description": "Visual identity and logo design"
+    },
+    {
+      "title": "Brand Identity D",
+      "image": "assets/portfolio/Branding Prudent.jpg",
+      "description": "Comprehensive brand development"
+    },
+    {
+      "title": "Brand Identity E",
+      "image": "assets/portfolio/Branding for chaa bliss.jpg",
+      "description": "Corporate branding"
+    },
+    {
+      "title": "Brand Identity F",
+      "image": "assets/portfolio/Branding Inforce.jpg",
+      "description": "Corporate branding"
+    }
+  ],
+
+  "web": [
+    {
+      "title": "website A",
+      "image": "assets/portfolio/web1.jpg",
+      "description": "responsive website"
+    },
+    {
+      "title": "website B",
+      "image": "assets/portfolio/Website for a Restaurant.jpg",
+      "description": "e-commerce website"
+    },
+    {
+      "title": "website C",
+      "image": "assets/portfolio/Portfolio Web.jpg",
+      "description": "portfolio website"
+    }
+  ],
+
+  "ui": [
+    {
+      "title": "Mobile UI",
+      "image": "assets/portfolio/ui1.jpg",
+      "description": "App interface design"
+    },
+    {
+      "title": "Dashboard UI",
+      "image": "assets/portfolio/UIUX crypto exchange site.jpg",
+      "description": "Admin dashboard design"
+    },
+    {
+      "title": "E-commerce UI",
+      "image": "assets/portfolio/UIUX crypto web design.jpg",
+      "description": "Online store interface design"
+    }
+  ],
+
+  "graphics": [
+    {
+      "title": "Social Media Graphics",
+      "image": "assets/portfolio/graphics1.jpg",
+      "description": "Marketing visuals and promotional content"
+    },
+    {
+      "title": "Infographics",
+      "image": "assets/portfolio/graphics2.jpg",
+      "description": "Data visualization and infographic design"
+    },
+    {
+      "title": "Event Posters",
+      "image": "assets/portfolio/graphics3.jpg",
+      "description": "Creative event poster design"
+    },
+    {
+      "title": "Custom Illustrations",
+      "image": "assets/portfolio/graphics4.jpg",
+      "description": "Unique illustrations for various projects"
+    },
+    {
+      "title": "Brand Collateral",
+      "image": "assets/portfolio/graphics5.jpg",
+      "description": "Design of business cards, flyers, and brochures"
+    },
+    {
+      "title": "Packaging Design",
+      "image": "assets/portfolio/graphics6.jpg",
+      "description": "Creative packaging solutions for products"
+    }
+  ]
+}

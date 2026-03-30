@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theo Kay · graphic &amp; web design</title>
+    <!-- SEO meta -->
+    <meta
+      name="description"
+      content="Theo Kay – Graphic &amp; Web Designer based in Sunyani, Ghana. Premium brand identity, web design, UI/UX, and creative direction."
+    />
+    <meta
+      name="keywords"
+      content="Graphic Designer, Web Designer, Sunyani, Ghana, UI UX,
+Brand Identity, Portfolio"
+    />
+    <meta name="author" content="Theo Kay" />
+    <!-- Open Graph / social -->
+    <meta property="og:title" content="Theo Kay · graphic &amp; web design" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.theo-kay.vercel.app" />
+    <meta property="og:image" content="assets/profile.jpg" />
+    <meta
+      property="og:description"
+      content="Futuristic design portfolio blending glassmorphism,
+neon accents, and smooth interactions."
+    />
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Theo Kay · graphic &amp; web design" />
+    <meta
+      name="twitter:description"
+      content="Premium portfolio from Sunyani, Ghana."
+    />
+    <meta name="twitter:image" content="assets/profile.jpg" />
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <!-- Fonts: Inter, Space Grotesk, Poppins fallback -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons (lightweight) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="aurora-bg"></div>
+    <!-- FLOATING GLASS NAVIGATION (fixed) -->
+    <nav class="glass-nav" id="navbar">
+      <div class="nav-indicator" id="nav-indicator"></div>
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo" aria-label="Theo Kay home">
+          <img
+            src="assets/logo.png"
+            alt="Theo Kay Logo"
+            class="logo-img"
+            width="200"
+            height="174"
+          />
+        </a>
+        <ul class="nav-menu" role="list">
+          <li>
+            <a href="#hero" class="nav-link active" data-section="hero">
+              <i class="fas fa-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link" data-section="about">
+              <i class="fas fa-user"></i>
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link" data-section="skills">
+              <i class="fas fa-code"></i>
+              <span>Skills</span>
+            </a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link" data-section="services">
+              <i class="fas fa-briefcase"></i>
+              <span>Services</span>
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link" data-section="portfolio">
+              <i class="fas fa-images"></i>
+              <span>Portfolio</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              class="nav-link"
+              data-section="testimonials"
+            >
+              <i class="fas fa-star"></i>
+              <span>Testimonials</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" data-section="contact">
+              <i class="fas fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- neon active glow (pseudo element managed by JS) -->
+    </nav>
+    <main id="main-content">
+      <!-- HERO SECTION -->
+      <section id="hero" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-content fade-up">
+            <div class="profile-img-wrapper">
+              <img
+                src="assets/profile.png"
+                alt="Theo Kay Profile Photo"
+                class="profile-img"
+              />
+              <div class="neon-ring"></div>
+            </div>
+            <h1 class="hero-name">Theo Kay</h1>
+            <div class="hero-title">
+              <span class="static-i-am">A</span>
+              <span class="typed-text" id="typed"></span>
+            </div>
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn primary">View Portfolio</a>
+              <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+          </div>
+          <!-- subtle animated background (floating particles simulated via pseudo) -->
+        </div>
+      </section>
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section about">
+        <div class="container">
+          <h2 class="section-title">About</h2>
+          <div class="about-grid">
+            <div class="about-text fade-left">
+              <p class="lead">
+                Designer &amp; creative technologist based in Sunyani, Ghana.
+              </p>
+              <p>
+                I believe design is visual storytelling. With 6+ years of
+                experience in graphic and web design, I fuse minimal aesthetics
+                with futuristic interactions. My work balances bold concepts
+                with clean execution — from brand identities to fully responsive
+                websites.
+              </p>
+              <p>
+                <strong>Philosophy:</strong>
+                Design should be immersive, accessible, and human. I craft
+                digital experiences that resonate and perform.
+              </p>
+              <div class="experience-badge">6+ years / global clients</div>
+            </div>
+            <div class="about-image fade-right">
+              <img
+                src="assets/theo.png"
+                alt="Theo Kay workspace"
+                class="about-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS SECTION (animated bars) -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid">
+            <!-- each skill will be filled via JS observer or data attribute -->
+            <div
+              class="skill-item"
+              data-skill="Graphic Design"
+              data-level="95"
+            ></div>
+            <div
+              class="skill-item"
+              data-skill="Web Design"
+              data-level="92"
+            ></div>
+            <div
+              class="skill-item"
+              data-skill="UI / UX Design"
+              data-level="88"
+            ></div>
+            <div
+              class="skill-item"
+              data-skill="Brand Identity"
+              data-level="90"
+            ></div>
+            <div
+              class="skill-item"
+              data-skill="Adobe Photoshop"
+              data-level="85"
+            ></div>
+            <div
+              class="skill-item"
+              data-skill="Adobe Illustrator"
+              data-level="87"
+            ></div>
+            <div class="skill-item" data-skill="HTML" data-level="90"></div>
+            <div class="skill-item" data-skill="CSS" data-level="88"></div>
+            <div
+              class="skill-item"
+              data-skill="JavaScript"
+              data-level="75"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICES SECTION (glass cards) -->
+      <section id="services" class="section services">
+        <div class="container">
+          <h2 class="section-title">Services</h2>
+          <div class="services-grid">
+            <div class="service-card glass-card">
+              <i class="fas fa-paint-brush"></i>
+              <h3>Brand Identity Design</h3>
+              <p>
+                Logos, brand systems, brand guidelines, and visual storytelling.
+              </p>
+            </div>
+            <div class="service-card glass-card">
+              <i class="fas fa-laptop-code"></i>
+              <h3>Web Design</h3>
+              <p>
+                Modern, responsive websites optimized for performance and
+                conversion.
+              </p>
+            </div>
+            <div class="service-card glass-card">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>UI / UX Design</h3>
+              <p>
+                User-focused digital products with intuitive flows and
+                micro-interactions.
+              </p>
+            </div>
+            <div class="service-card glass-card">
+              <i class="fas fa-hashtag"></i>
+              <h3>Social Media Graphics</h3>
+              <p>
+                Marketing visuals, templates, and motion content for brands.
+              </p>
+            </div>
+            <div class="service-card glass-card">
+              <i class="fas fa-rocket"></i>
+              <h3>Website Optimization</h3>
+              <p>
+                Performance improvements, SEO basics, and speed optimization.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PORTFOLIO SECTION with filtering & modal -->
+      <section id="portfolio" class="section portfolio">
+        <div class="container">
+          <h2 class="section-title">Portfolio</h2>
+          <div class="filter-tabs">
+            <button
+              type="button"
+              class="filter-btn active"
+              data-category="branding"
+            >
+              Branding
+            </button>
+            <button type="button" class="filter-btn" data-category="web">
+              Web Design
+            </button>
+            <button type="button" class="filter-btn" data-category="ui">
+              UI Design
+            </button>
+            <button type="button" class="filter-btn" data-category="graphics">
+              Graphics
+            </button>
+          </div>
+          <div class="portfolio-grid" id="portfolio-grid">
+            <button
+              type="button"
+              class="portfolio-category"
+              data-category="branding"
+              aria-label="Open Brand Identity portfolio item"
+            >
+              <img
+                loading="lazy"
+                src="assets/portfolio/branding1.jpg"
+                alt="Bagons brand identity project"
+              />
+              <div class="portfolio-overlay">
+                <h3>Brand Identity</h3>
+                <p>Logos . Brand Systems</p>
+              </div>
+            </button>
+
+            <button
+              type="button"
+              class="portfolio-category"
+              data-category="web"
+              aria-label="Open Web Design portfolio item"
+            >
+              <img
+                loading="lazy"
+                src="assets/portfolio/web1.jpg"
+                alt="Responsive website project preview"
+              />
+              <div class="portfolio-overlay">
+                <h3>Web Design</h3>
+                <p>Modern Responsive Website</p>
+              </div>
+            </button>
+
+            <button
+              type="button"
+              class="portfolio-category"
+              data-category="ui"
+              aria-label="Open UI / UX portfolio item"
+            >
+              <img
+                loading="lazy"
+                src="assets/portfolio/ui1.jpg"
+                alt="UI / UX app interface design preview"
+              />
+              <div class="portfolio-overlay">
+                <h3>UI / UX</h3>
+                <p>App &amp; Dashboard Interfaces</p>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="portfolio-category"
+              data-category="graphics"
+              aria-label="Open Graphics portfolio item"
+            >
+              <img
+                loading="lazy"
+                src="assets/portfolio/graphics1.jpg"
+                alt="Marketing and social media graphics preview"
+              />
+              <div class="portfolio-overlay">
+                <h3>Graphics</h3>
+                <p>Marketing &amp; Social Media</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- MODAL GALLERY (hidden by default) -->
+      <div
+        id="portfolio-modal"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="portfolio-modal-title"
+        aria-label="portfolio gallery"
+        hidden=""
+      >
+        <div class="modal-content glass-card">
+          <button type="button" class="close-modal" aria-label="Close gallery">
+            ×
+          </button>
+          <h2 id="portfolio-modal-title" class="visually-hidden">
+            Portfolio gallery
+          </h2>
+          <div class="modal-gallery">
+            <div class="modal-main">
+              <img id="modal-current-img" src="" alt="" />
+              <div class="modal-nav">
+                <button id="modal-prev" aria-label="previous">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="modal-next" aria-label="next">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="modal-thumbnails" id="modal-thumbnails"></div>
+          </div>
+        </div>
+      </div>
+      <!-- TESTIMONIALS CAROUSEL -->
+      <section id="testimonials" class="section testimonials">
+        <div class="container">
+          <h2 class="section-title">Testimonials</h2>
+          <div class="carousel-container">
+            <div class="carousel-track" id="carousel-track">
+              <div class="testimonial-card glass-card">
+                <p>
+                  "Theo Kay delivered an outstanding design that elevated our
+                  brand identity. His attention to detail is unmatched."
+                </p>
+                <div class="client">– Ama S., Founder, Accra</div>
+              </div>
+              <div class="testimonial-card glass-card">
+                <p>
+                  "Working with Theo was seamless. He understood our vision and
+                  built a stunning website that converts."
+                </p>
+                <div class="client">– James K., Creative Lead, Kumasi</div>
+              </div>
+              <div class="testimonial-card glass-card">
+                <p>
+                  "A true creative technologist. The UI/UX work for our app was
+                  futuristic and intuitive. Highly recommended."
+                </p>
+                <div class="client">– Nana Y., Product Manager, Sunyani</div>
+              </div>
+            </div>
+            <div class="carousel-dots" id="carousel-dots"></div>
+            <button class="carousel-prev" aria-label="previous testimonial">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-next" aria-label="next testimonial">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT SECTION + MAP -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-grid">
+            <div class="contact-form glass-card">
+              <form
+                id="contactForm"
+                action="https://formspree.io/f/mvzvavyd"
+                method="POST"
+                accept-charset="UTF-8"
+              >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New portfolio inquiry"
+                />
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    aria-required="true"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="_replyto"
+                    required
+                    aria-required="true"
+                    placeholder="your@email.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    placeholder="Tell me about your project..."
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send message</button>
+                <div id="form-feedback" class="form-feedback"></div>
+              </form>
+            </div>
+            <div class="map-wrapper">
+              <!-- embed Google Map placeholder (Sunyani, Ghana) -->
+              <iframe
+                title="Sunyani map"
+                src="https://www.google.com/maps?q=Sunyani%2C%20Ghana&output=embed"
+                width="100%"
+                height="250"
+                style="border: 0; border-radius: 1rem"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <p class="location-tag">
+                <i class="fas fa-map-pin"></i>
+                Sunyani, Ghana
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-logo">
+          <img
+            src="assets/footer-logo.png"
+            alt="Theo Kay"
+            width="136"
+            height="100"
+          />
+        </div>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-socials">
+          <a
+            href="https://www.linkedin.com/in/theophilusdartey"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="LinkedIn profile"
+          >
+            <i class="fab fa-linkedin in"></i>
+          </a>
+          <a
+            href="https://www.tiktok.com/@theokay21"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="TikTok profile"
+          >
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <!--WhatsApp-->
+          <a
+            href="https://wa.me/233534121560?text=Hello%20Theo%20Kay%2C%20I%20would%20like%20to%20inquire%20about%20your%20design%20services."
+            class="contact-btn whatsapp"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Contact via WhatsApp"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <!--Email-->
+          <a
+            href="mailto:theophilusdartey@live.com"
+            class="contact-btn email"
+            aria-label="Send email"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <div class="copyright">
+          <p>© 2024 Theo Kay. All Rights Reserved. — Sunyani, Ghana</p>
+        </div>
+      </div>
+      <div class="floating-contact"></div>
+    </footer>
+    <!-- script.js (link) -->
+    <script src="script.js"></script>
+    <script>
+      // inline script for typing effect (simple version)
+      document.addEventListener("DOMContentLoaded", function () {
+        // typed effect
+        const typedEl = document.getElementById("typed");
+        if (typedEl) {
+          const words = [
+            "Graphic Designer",
+            "Web Designer",
+            "Creative Technologist",
+          ];
+          let i = 0,
+            j = 0,
+            current = "",
+            isDeleting = false;
+          function typeEffect() {
+            if (i < words.length) {
+              if (!isDeleting && j <= words[i].length) {
+                current = words[i].substring(0, j++);
+                typedEl.textContent = current;
+              }
+              if (isDeleting && j >= 0) {
+                current = words[i].substring(0, j--);
+                typedEl.textContent = current;
+              }
+              if (j === words[i].length) {
+                isDeleting = true;
+                setTimeout(typeEffect, 1500);
+                return;
+              }
+              if (isDeleting && j === 0) {
+                isDeleting = false;
+                i = (i + 1) % words.length;
+              }
+            }
+            setTimeout(typeEffect, isDeleting ? 50 : 100);
+          }
+          typeEffect();
+        }
+      });
+    </script>
+    <!-- JSON-LD structured data Person -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Theo Kay",
+        "jobTitle": "Graphic & Web Designer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sunyani",
+          "addressCountry": "Ghana"
+        },
+        "sameAs": [
+          "https://linkedin.com/in/theophilusdartey",
+          "https://tiktok.com/@theokay21"
+        ]
+      }
+    </script>
+  </body>
+</html>
